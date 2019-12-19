@@ -1,0 +1,130 @@
+.top-name-banner {
+    position: fixed;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    float: left;
+    padding: 10px 20px;
+    margin-left: 100px;
+}
+
+.navbar-nav {
+    margin-left: 950px;
+}
+
+#portfolio-container {
+    height: 900px;
+    width: 700px;
+    z-index: 1;
+}
+
+.img-fluid  {
+    max-width: 100%; 
+    height: auto;
+}
+
+#jumbo {
+    margin: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+#my-name {
+    text-decoration: none;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+} 
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 15px 0;
+}
+
+.container {
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+footer {
+    background-color: #666666;
+    height: 120px;
+    border-top: 10px solid #4aaaa5;
+    position: sticky;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+#form-text {
+    height: 25px;
+    font-size: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#form-text2 {
+    height: 200px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: #afafaf solid 1px;
+    resize: none;
+}
+
+.portfolio-image {
+    position: relative;
+    margin: 20px 10px;
+}
+
+.portfolio-banner {
+    width: 90%;
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    margin: 20px 10px;
+    bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #main-container {
+        height: 1000px;
+    }
+    #portfolio-container {
+      height: 2500px;
+    }
+  }
+
+@media (max-width: 415px) {
+    
+    #portfolio-container {
+      height: 3200px;
+    }
+  }
+
+
+
