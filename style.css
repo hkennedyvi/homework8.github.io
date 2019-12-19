@@ -19,6 +19,10 @@
     z-index: 1;
 }
 
+#contact-container {
+    height: 575px;
+}
+
 .img-fluid  {
     max-width: 100%; 
     height: auto;
@@ -126,5 +130,9 @@ footer {
     }
   }
 
+.contact-icons {
+    float: right;
+    font-size: 75px;
+}
 
 
